@@ -8,9 +8,9 @@ resource "aws_network_interface" "foo" {
 }
 
 resource "aws_instance" "foo" {
-  ami           = "ami-0260dee6247a43862"
+  ami           = "ami-0108d6a82a783b352"
   instance_type = "t2.micro"
-  key_name      = "oct21-wekdays-morning"
+  key_name      = "mumbaiacc2"
 
   tags = {
     Name = "web-1"
